@@ -58,8 +58,5 @@ public class ATMSimulation {
             showMenu(accounts[id], input);
         }
 
-
-
-
     }
 }
