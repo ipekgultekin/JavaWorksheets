@@ -12,6 +12,7 @@ public class TriangleArray1 {
             for (int j = 0; j < triangle[i].length; j++) {
                 System.out.print(triangle[i][j]);
             }
+
             System.out.println();
 
         }
