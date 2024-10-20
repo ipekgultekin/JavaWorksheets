@@ -3,10 +3,10 @@ import java.util.Date;
 public class Account {
     private int id;
     private double balance;
-    private static double annualInterestRate;
+    private double annualInterestRate;
     private Date dateCreated;
 
-    public Account(int id, double balance, double annualInterestRate, Date dateCreated) {
+    public Account() {
        //this is no-arg constructor (default)
         this.id = 0;
         this.balance = 0;
@@ -14,11 +14,10 @@ public class Account {
         this.dateCreated = new Date();
     }
 
-    public Account(double balance, double annualInterestRate) {
+    public Account(int id, double balance) {
         //this is parametrized constructor
         this.id = id;
         this.balance = balance;
-        this.annualInterestRate = annualInterestRate;
         this.dateCreated = new Date();
     }
 
@@ -30,8 +29,8 @@ public class Account {
         return balance;
     }
 
-    public static void setAnnualInterestRate(double annualInterestRate) {
-        Account.annualInterestRate = annualInterestRate;
+    public void setAnnualInterestRate(double annualInterestRate) {
+        this.annualInterestRate = annualInterestRate;
     }
 
     public Date getDateCreated() {
@@ -44,6 +43,18 @@ public class Account {
 
     public double getMonthlyInterest() {
         return balance*(annualInterestRate/100);
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void setDateCreated(Date dateCreated) {
+        this.dateCreated = dateCreated;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void withdraw(double amount) {
