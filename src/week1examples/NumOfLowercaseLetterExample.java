@@ -2,7 +2,7 @@ package week1examples;
 
 import java.util.Scanner;
 
-public class NumOfLowercaseLetterExample1 {
+public class NumOfLowercaseLetterExample {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

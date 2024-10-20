@@ -2,7 +2,7 @@ package week1examples;
 
 import java.util.Random;
 
-public class TicTacToeBoardExample1 {
+public class TicTacToeBoardExample {
     public static void main(String[] args) {
         int [][] board = new int[3][3];
         Random rand = new Random(); //for randomly fills the board

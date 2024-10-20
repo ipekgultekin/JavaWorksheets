@@ -1,6 +1,6 @@
 package week1examples;
 
-public class TriangleArray1 {
+public class TriangleArray {
     public static void main(String[] args) {
         int [][] triangle = new int[10][];
 

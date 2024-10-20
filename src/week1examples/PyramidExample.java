@@ -2,7 +2,7 @@ package week1examples;
 
 import java.util.Scanner;
 
-public class PyramidExample1 {
+public class PyramidExample {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
