@@ -1,3 +1,5 @@
+package week2examples;
+
 import java.util.Scanner;
 
 public class QuadraticEquationTest {

@@ -1,3 +1,5 @@
+package week2examples;
+
 public class QuadraticEquation {
     private int a, b, c;
     public QuadraticEquation(int a, int b, int c) {

@@ -1,3 +1,5 @@
+package week2examples;
+
 public class StockExampleTest {
     public static void main(String[] args) {
         StockExample oracleStock = new StockExample("ORCL", "Oracle Corporation");

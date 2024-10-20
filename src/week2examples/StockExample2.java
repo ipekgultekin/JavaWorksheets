@@ -1,3 +1,5 @@
+package week2examples;
+
 public class StockExample2 {
     private String symbol;
     private String name;
