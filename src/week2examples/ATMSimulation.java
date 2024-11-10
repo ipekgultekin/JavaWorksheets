@@ -3,7 +3,7 @@ package week2examples;
 import java.util.Scanner;
 
 public class ATMSimulation {
-//this file related to week2examples.Account and week2examples.Account test files.
+//this file related to week2examples.Account_TryCatch and week2examples.Account_TryCatch test files.
     public static void showMenu(Account account, Scanner input){
         System.out.println("Welcome to week2examples.ATMSimulation");
         int choice = 0;
